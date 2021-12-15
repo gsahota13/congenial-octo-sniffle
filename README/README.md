@@ -46,15 +46,15 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 
 98.51.1.63
 
-Machines within the network can only be accessed by 98.51.1.63.
+Machines within the network can only be accessed by the Jump Box.
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | No                  | 10.0.0.5 10.0.0.6    |
-|          |                     |                      |
-|          |                     |                      |
+| Jump Box | No                  | 98.51.1.63           |
+|  Web-1   | No                  | 10.0.0.4             |
+|  Wdb-2   | No                  | 10.0.0.4             |
 
 ### Elk Configuration
 

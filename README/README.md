@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-README/Images/diagram.png.png
+![alt text](https://github.com/gsahota13/congenial-octo-sniffle/blob/4cfc49d6539859789d8243db980c7994b34e3dd3/README/Images/diagram.png.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. 
 Alternatively, select portions of the install-elk.yml file may be used to install only certain pieces of it, such as Filebeat.
@@ -19,7 +19,8 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.![Capture3](https://user-images.githubusercontent.com/89756795/147702813-38ffb28a-796e-4ca2-8b4a-350396785173.png)
+
 
 Load balancing ensures that the application will be highly available, in addition to restricting traffic to the network.
 
@@ -31,12 +32,12 @@ Metric beat records the machines' metric data.
 
 The configuration details of each machine may be found below.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.4   | Linux            |
-| Web-1    | DVWA     | 10.0.0.5   | Linux            |
-| Web-2    | DVWA     | 10.0.0.6   | Linux            |
-| Elk      | Server   | 10.2.0.4   | Linux            |
+| Name     | Function  | IP Address |      Operating System        |
+|----------|-----------|------------|------------------------------|
+| Jump Box | Gateway   | 10.0.0.4   | Linux Ubuntu Server 18.04 LTS|
+| Web-1    | DVWA      | 10.0.0.5   | Linux Ubuntu Server 18.04 LTS|
+| Web-2    | DVWA      | 10.0.0.6   | Linux Ubuntu Server 18.04 LTS|
+| Elk      | Elk Server| 10.2.0.4   | Linux Ubuntu Server 18.04 LTS|
 
 ### Access Policies
 
@@ -70,7 +71,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-README/Images/Day 1/Capture3.PNG
+![alt text](https://github.com/gsahota13/congenial-octo-sniffle/blob/4cfc49d6539859789d8243db980c7994b34e3dd3/README/Images/Day%201/Capture3.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
